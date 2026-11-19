@@ -200,7 +200,8 @@ footer p {
     }
 
 .heroContent p {
-        font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
     }
 
 /* Introduction */
@@ -217,7 +218,8 @@ footer p {
     }
 
 .introText p {
-        font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
     }
 .introImage {
         height: 280px;
@@ -238,7 +240,8 @@ footer p {
     }
 
 .sectionHeading p {
-        font-size: 14px;
+    font-size: 16px;
+    font-weight: 500;
     }
 
 .placeCard img {
@@ -254,7 +257,8 @@ footer p {
     }
 
 .placeContent p {
-        font-size: 14px;
+    font-size: 16px;
+    font-weight: 500;
     }
 
 /* Footer */
