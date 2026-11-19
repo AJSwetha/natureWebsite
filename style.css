@@ -280,6 +280,23 @@ body {
         font-size: 16px;
         font-weight: 500;
     }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .about h2,
+    .places h2,
+    .why h2,
+    .nature-moments h2,
+    .nature-description h2 {
+        font-size: 32px;
+    }
+
+    .card h3,
+    .feature h3 {
+        font-size: 24px;
+    }
 }
 
 /* Footer */
