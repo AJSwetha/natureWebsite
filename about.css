@@ -141,6 +141,14 @@ body {
 
 /* Mobile */
 @media (max-width: 767px) {
+    .navbar .navbar-brand {
+        font-size: 22px;
+    }
+
+    .navbar .nav-link {
+        font-size: 20px;
+        padding: 8px 0;
+    }
     .aboutText {
         padding: 40px 25px !important;
     }
