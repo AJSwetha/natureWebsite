@@ -1,63 +1,70 @@
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     font-family: cursive;
-      /* max-width:100%; */
-
 }
+
 body {
+    font-family: cursive;
     background-color: #f5fff5;
-     overflow-x: clip;
+    overflow-x: clip;
     color: #333;
 }
+
 /* Navbar */
-.navbar{
+.navbar {
     background-color: #14532d;
-    padding:15px 15px !important;
+    padding: 15px 15px !important;
 }
+
 .navbar .navbar-brand,
-.navbar .nav-link{
-    color:white;
-    font-weight:bold;
-    transition:transform 0.5s ease;
+.navbar .nav-link {
+    color: white;
+    font-weight: bold;
+    transition: transform 0.5s ease;
 }
+
 .navbar .navbar-brand:hover,
-.navbar .nav-link:hover{
-    /* color:white !important; */
+.navbar .nav-link:hover {
     color: #a7f3a0;
-    transform:scale(1.03);
+    transform: scale(1.03);
 }
-.nav-link{
-    margin-right:40px;
+
+.nav-link {
+    margin-right: 40px;
 }
+
 .container-fluid a {
-    transition:transform 0.5s ease;
-    text-decoration: none;    
+    transition: transform 0.5s ease;
+    text-decoration: none;
 }
-.container-fluid a:hover{
-    transform:scale(1.03);
+
+.container-fluid a:hover {
+    transform: scale(1.03);
 }
-.navbar-toggler{
-    border-color:white !important;
+
+.navbar-toggler {
+    border-color: white !important;
 }
+
 .navbar-toggler:focus {
-    box-shadow:0px 0px 3px 2px white!important;
+    box-shadow: 0px 0px 3px 2px white !important;
     outline: none !important;
     border-color: white !important;
 }
+
 .navbar-toggler-icon {
     filter: brightness(0) invert(1);
-} 
- 
+}
+
 .aboutPage {
     background-color: #f8f8f5;
 }
 
 .aboutText {
-    padding:30px 55px 0px 55px !important;
+    padding: 30px 55px 0px 55px !important;
 }
 
 .aboutText h1 {
@@ -84,16 +91,13 @@ body {
 .aboutImage {
     background-image: url("aboutBack.jpg");
     background-size: cover;
-    background-position:center;
-    height:1300px !important;
-    min-height:1300px !important;
+    background-position: center;
+    height: 1300px !important;
+    min-height: 1300px !important;
 }
 
-/* Mobile */
 /* Laptop and Tablet */
-
-@media (max-width: 1300px){
-
+@media (max-width: 1300px) {
     .aboutText {
         padding: 30px 30px 0px 30px !important;
     }
@@ -114,8 +118,8 @@ body {
     .aboutImage {
         background-position: center;
     }
-
 }
+
 @media (max-width: 970px) {
     .aboutText {
         padding: 25px 20px !important;
@@ -134,26 +138,31 @@ body {
         line-height: 1.7;
     }
 }
+
+/* Mobile */
 @media (max-width: 767px) {
     .aboutText {
-        padding: 40px 25px;
+        padding: 40px 25px !important;
     }
 
     .aboutText h1 {
         font-size: 30px;
     }
- .aboutText p {
+
+    p,
+    .aboutText p {
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         font-weight: 500;
     }
+
     .aboutImage {
-        /* min-height:450px; */
-          height: 450px !important;
+        height: 450px !important;
         min-height: 450px !important;
     }
 }
-/* Footer */
 
+/* Footer */
 footer {
     background-color: #14532d;
     color: white;
