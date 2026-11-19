@@ -221,7 +221,7 @@ footer p {
     }
 
     .heroContent h1 {
-        font-size: 30px;
+        font-size: 36px;
     }
 
     /* Introduction */
@@ -234,7 +234,7 @@ footer p {
     }
 
     .introText h2 {
-        font-size: 27px;
+        font-size: 32px;
     }
 
     .introImage {
@@ -253,7 +253,7 @@ footer p {
     }
 
     .sectionHeading h2 {
-        font-size: 26px;
+        font-size: 32px;
     }
 
     .placeCard img {
@@ -265,7 +265,7 @@ footer p {
     }
 
     .placeContent h3 {
-        font-size: 21px;
+        font-size: 24px;
     }
 
     /* Footer */
@@ -274,6 +274,6 @@ footer p {
     }
 
     .footer h3 {
-        font-size: 23px;
+        font-size: 26px;
     }
 }
