@@ -204,6 +204,14 @@ footer p {
 
 /* Mobile Responsive */
 @media (max-width: 767px) {
+   .navbar .navbar-brand {
+        font-size: 22px;
+    }
+
+    .navbar .nav-link {
+        font-size: 20px;
+        padding: 8px 0;
+    }
     p,
     .heroContent p,
     .introText p,
